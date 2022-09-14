@@ -66,6 +66,7 @@ public class App extends Application{
             animation = new SubScene(nodesGroup, resolution, resolution, true, SceneAntialiasing.BALANCED);
             animation.setTranslateX(10);
             animation.setTranslateY(10);
+            //test
             root.getChildren().add(animation);
             pixelGameAnimation = new PixelGameField(points, nodesGroup, resolution, Double.parseDouble(speed.getText()));
             pixelGameAnimation.setStrategy(wallCollisionStrategy.getValue());
